@@ -14,7 +14,7 @@ This additional column can be read by the Visual Molecular Dynamics (VMD) softwa
 
 2. gfortran (can be installed on Linux using `apt install gfortran` or ` brew install gfortran` on MacOS)
 
-3. Download [XYZ_exchange_tracker.f90]() and [XYZ_exchange_tracker.sh]() and place both in the same directory
+3. Download [XYZ_exchange_tracker.f90](https://github.com/bgrosjea/particle_exchange_tracker/blob/master/XYZ_exchange_tracker.f90) and [XYZ_exchange_tracker.sh](https://github.com/bgrosjea/particle_exchange_tracker/blob/master/XYZ_exchange_tracker.sh) and place both in the same directory
 
 4. Execute `./XYZ_exchange_tracker.sh path/to/your_trajectory.xyz` 
    The output trajectory is named ` your_trajectory_exchange_track.xyz`
